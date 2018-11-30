@@ -15,7 +15,7 @@ This Github repository contains the project files for the Emerging Technologies 
 5. Digit recognition notebook: a jupyter notebook explaining how the above Python script works and discussing its performance.
 
 ## Prerequisites
-Anaconda 5.3.1, running on python 3.6.5 with subpackages:
+1. Anaconda 5.3.1, running on python 3.6.5 with subpackages:
 - numpy
 - matplotlib.pyplot
 - pandas
@@ -27,19 +27,26 @@ Anaconda 5.3.1, running on python 3.6.5 with subpackages:
 - keras
 - tkinter
 
+2. Mnist Dataset
+
 ## Running the Notebooks and Scripts
 
 1. Git clone this project to local machine
 ```
-https://github.com/yonjeremy/emerging-technologies-assesment
+git clone https://github.com/yonjeremy/emerging-technologies-assesment
 ```
-
-2. Navigate to the cloned folder and open jupyter notebook
+2. Download the Mnist dataset (all four datasets)
+```
+http://yann.lecun.com/exdb/mnist/
+```
+3. Navigate to the cloned folder and create an empty directory called "data"
+4. Paste the downloaded datasets into the data folder (leave it zipped)
+5. In the cloned folder, open jupyter notebook
 ```
 jupyter notebook
 ```
 
-3. Run the digitrec.py script
+6. Run the digitrec.py script
 ```
 python digitrec.py
 ```
@@ -63,7 +70,7 @@ python digitrec.py
 | 6     | Work on digit recognition notebook   | 2 weeks                  |
 | 7     | Create digitrec script from notebook | 1 week                   |
 | 8     | Fix bugs, test, and tidy up READMe   | 1 week                   |
-|                                   Total:    10 weeks
+|                                   Total:     | 10 weeks                 |
 
 ```
 
