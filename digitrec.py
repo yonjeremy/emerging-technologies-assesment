@@ -23,7 +23,7 @@ def generateModel(inputs,outputs):
     model3.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
     # Fit the model
-    model3.fit(inputs, outputs, epochs=1, batch_size=100)
+    model3.fit(inputs, outputs, epochs=10, batch_size=100)
     return (model3)
 
 def generateInputsAndOutputs():
@@ -86,7 +86,7 @@ def main():
     inputs,outputs,encoder = generateInputsAndOutputs()
     model = generateModel(inputs,outputs)
     predictDigit(model,encoder)
-    
+
 main()
     
     
